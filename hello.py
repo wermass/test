@@ -1,2 +1,2 @@
 print('Hello, world')
-print('hello hello)
+print(Kykypy3a)
