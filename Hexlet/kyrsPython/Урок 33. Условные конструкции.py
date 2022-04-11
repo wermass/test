@@ -1,14 +1,14 @@
-def normalize_url(adres):
+def normalize_url(addres):
   https = 'https://'
   http = 'http://'
-  if adres[:6] == http[:6]:
-    adres = https + adres[7:]
-    return adres
-  elif adres[:7] == https[:7]:
-    return adres
+  if addres[:6] == http[:6]: # если адрес 'http://' ,то меняем его на 'https://' пример: меняем 'http://ai.fi' на 'https://ai.fi'
+    addres = https + adres[7:]
+    return addres
+  elif addres[:7] == https[:7]: # если адрес 'https://' , то не трогаем пример: входящий 'http://ai.fi'  не трогаем 'https://ai.fi'
+    return addres
 
-  else :    
-    return https+adres  
+  else :    # в любом другом случаее обавляем 'https://' перед адресом  пример: 'google.com'  меняем на 'https://google.com'
+    return https+addres  
 
 
 

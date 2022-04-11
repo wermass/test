@@ -1,7 +1,6 @@
 def get_age_difference(x, y):
-  opsr = x - y
-  opsr = abs(opsr)
-  opsr = (f'The age difference is {opsr}')  
+ 
+  opsr = (f'The age difference is {abs(x - y)}')  
   
   return opsr
 
