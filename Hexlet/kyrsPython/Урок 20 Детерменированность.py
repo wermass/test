@@ -1,5 +1,39 @@
 from random import random
-print(int((random())+1)*10)
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+from random import random
+print(int(random()*10))
+
+
 
 # вот тут мне кажется я на костылях прошел...
 # В коде подключена функция random(). Она random() возвращает случайное число от 0 до 1 с большим количеством знаков после запятой. Но в реальных задачах бывает нужно получать случайные целые числа в заданном диапазоне.

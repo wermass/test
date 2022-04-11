@@ -1,7 +1,7 @@
 def get_hidden_card(text, base=4):
-    nomber_card = text.replace(text[:12], '*' * base)
-    print(nomber_card)
-    return nomber_card
+    number_card = text.replace(text[:12], '*' * base)
+    print(number_card)
+    return number_card
 
 
 

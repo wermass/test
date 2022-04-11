@@ -1,7 +1,10 @@
 from datetime import date
-date = '2022-11-15'
+
+
 def get_current_year():
-    return int(date[0:4])
+    x = str(date.today())
+    y = x[0:4]
+    return y
 print(get_current_year())
 
 
