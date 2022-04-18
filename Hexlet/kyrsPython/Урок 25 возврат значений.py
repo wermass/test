@@ -2,9 +2,8 @@ from datetime import date
 
 
 def get_current_year():
-    x = str(date.today())
-    y = x[0:4]
-    return y
+  x = str(date.today())[0:4]
+  return x
 print(get_current_year())
 
 

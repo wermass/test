@@ -1,6 +1,6 @@
 def print_numbers(n):
   i=n
-  while 1 <= i:
+  while i => 1:
     print( i)
     i -= 1 
   print('finished!')
